@@ -1,9 +1,16 @@
 # IS 218 Python Workflow
 
-Repository foundation and environment setup for IS 218 web applications workflow and automated testing.
+Repository URL: https://github.com/Jefferson2036-droid/is218-python-workflow
+
+## File Descriptions
+- `README.md`: Project documentation and environment guide.
+- `.gitignore`: Rules specifying files and cache directories Git should ignore.
+- `requirements.txt`: Python package dependencies (`pytest==8.4.2`).
+- `app.py`: Contains application code and the `add` function.
+- `tests/test_app.py`: Automated test cases validating `app.py`.
 
 ## Environment Setup
-- Python Version: 3.12
+- Tested Python Version: 3.12.14
 - Setup commands:
   ```bash
   python3 -m venv .venv
